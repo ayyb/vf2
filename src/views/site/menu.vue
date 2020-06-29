@@ -23,7 +23,7 @@
         :key="i"
         v-model="item.active"
         :prepend-icon="item.icon"
-        no-action="!$store.state.editable"
+        :no-action="!$store.state.editable"
       >
         <template v-slot:activator>
           <v-list-item-content>
